@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+body{
+    font-family: "Lato",sans-serif;
+    color: #424551;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.bibendum h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.bibendum{
+    color: #424551;
+    line-height: 160%;
+    margin-bottom: 48px;
+}
+h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+    
+.learn ul{
+    height: 176px;
+    margin-bottom: 48px;   
+}
+.learn li{
+    margin-bottom: 4px;
+    background: url('../img/icons/Vector.png') 0 0 no-repeat;
+    padding-left: 31px;
+    
+    
+
+}
+.curator h3{
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+
+}
+.curator h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 16px;
+}
+.company p{
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+    margin-bottom: 32px;
+    
+}
+.company ul{
+    font-weight: 700;
+    margin-bottom: 36px;
+    
+}
+.company li{
+    margin-bottom: 4px;
+
+}
+.name p{
+    color: #424551;
+    line-height: 150%;
+}
+.star{
+   background: url('../img/icons/star.png') 0 0 no-repeat;
+   padding-left: 24px;
+
+} 
+.play{
+    background: url('../img/icons/play.png') 0 0 no-repeat;
+    padding-left: 24px;
+}
+.man{
+    background: url('../img/icons/one.png') 0 0 no-repeat;
+    padding-left: 24px;
+}
+
+
+
+
+
+
+.yt h2{
+    min-height: 120px;
+    font-weight: 900;
+    font-size: 46px;
+    padding-left: 130px;
+    padding-top: 25px;
+    
+}
+
+.bt:hover{
+    color:blue;
+}
+
+
+.yt{
+    background: url('../img/icons/yt.png') 0 0 no-repeat;
+    margin-top: 400px;
+    min-height: 300px;   
+}
+.johny:not(:last-child){
+    margin-bottom: 100px;
+}
+
+.shark__item{
+    opacity: 0;
+    visibility: hidden;
+}
+.shark:hover .shark__item{
+    visibility: visible;
+    opacity: 1;
+    color: red;
+}
+[class*="__item"]{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+
+}
+
+.despacito__item{
+    visibility: hidden;
+    opacity: 0;
+    
+
+}
+.despacito:hover .despacito__item{
+    visibility: visible;
+    opacity: 1;
+    color: red;
+
+}
+.johny__item{
+    visibility: hidden;
+    opacity: 0;
+
+}
+.johny:hover .johny__item{
+    visibility: visible;
+    opacity: 1;
+    color: red;
+}
+.homework h2:hover{
+    color: red;
+}
+
+.view{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    padding-left: 20px;
+
+}
+.view ul ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+.wide{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-top: 100PX;
+}
+.link:focus{
+    outline: 5px solid red;
+}
+.lor{
+    background-color: aqua;
+    color: #424551;
+    padding: 30px;
+
+}
+.min{
+    background-color:royalblue;
+    padding: 30px;
+    color: grey;
+}
+.min p{
+    margin-bottom: 15px;
+}
+.min p:first-child{
+    color: aqua;
+}
+.min p:last-child{
+    color: aquamarine;
+}
+.min p:nth-child(even){
+    background-color: #424551;
+}
+.min p:not(:last-child){
+    margin-bottom: 15px;
+}
+.trt{
+    margin-left: 20px;
+}
+.trt li:not(:last-child){
+    margin-bottom: 10px;
+}
+.trt li::before{
+    background: url('../img/icons/Vector.png') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.trt li:hover::Before{
+    transition: all 0.8s ease 0s;
+    transform: rotate(-360deg);
+}
